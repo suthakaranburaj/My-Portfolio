@@ -192,7 +192,7 @@ const Home = () => {
             <About />
             <Resume />
             <Projects />
-            <Blog />
+            {/* <Blog /> */}
             <Contact />
           </div>
           {/* ======================== Smaller device content End ========================== */}
@@ -225,7 +225,7 @@ const Home = () => {
                 <Projects />
               </motion.div>
             )}
-            {blog && (
+            {/* {blog && (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -233,7 +233,7 @@ const Home = () => {
               >
                 <Blog />
               </motion.div>
-            )}
+            )} */}
             {contact && (
               <motion.div
                 initial={{ opacity: 0 }}
