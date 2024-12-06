@@ -13,6 +13,9 @@ import   password_manager from '../../assets/work/password_manager.png'
 import workImgTwo from '../../assets/work/workImgTwo.png'
 import netflix from '../../assets/work/Netflix_clone.png'
 import timer from '../../assets/work/timer.png'
+import TravelTrail from '../../assets/work/TravelTrail AI.png'
+import ECommerce from '../../assets/work/ECommerce.png'
+
 
 const Projects = () => {
   return (
@@ -20,6 +23,13 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
+          <a href="https://travel-trail-ai.vercel.app/" target="_blank">
+            <ProjectsCard
+              title="TravelTrail AI"
+              category="Travel Planning AI"
+              image={TravelTrail}
+            />
+          </a>
           <a href="https://clip-verse.vercel.app/" target="_blank">
             <ProjectsCard
               title="Clip Verse"
@@ -27,11 +37,11 @@ const Projects = () => {
               image={workImgTwo}
             />
           </a>
-          <a href="https://github.com/suthakaranburaj/Netflix-clone-using-html-and-css" target="_blank">
+          <a href="https://travel-trail-ai.vercel.app/" target="_blank">
             <ProjectsCard
-              title="Netflix Clone"
-              category="Web application"
-              image={netflix}
+              title="E-Commerce Application"
+              category="E-Commerce Platform"
+              image={ECommerce}
             />
           </a>
           <a href="https://github.com/suthakaranburaj/Promodoro-Timer-in-Python">
@@ -57,6 +67,13 @@ const Projects = () => {
               title="Password Manager"
               category="Desktop Application"
               image={password_manager}
+            />
+          </a>
+          <a href="https://github.com/suthakaranburaj/Netflix-clone-using-html-and-css" target="_blank">
+            <ProjectsCard
+              title="Netflix Clone"
+              category="Web application"
+              image={netflix}
             />
           </a>
           {/* <ProjectsCard

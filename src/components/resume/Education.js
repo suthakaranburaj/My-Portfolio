@@ -11,6 +11,12 @@ const Education = () => {
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
           badge="2024 - Present"
+          title="Junior Software Programmer"
+          subTitle="Enpointe IO, Andheri West"
+          des="As a Full Stack Developer on the CORSYMO project, I focus on building scalable solutions, integrating APIs, and optimizing backend logic for seamless data flow. I developed advanced search filters with debounce functionality and resolved critical bugs to enhance performance. Additionally, I built dynamic forms, like bank details forms, while gaining expertise in backend architecture."
+        />
+        <ResumeCard
+          badge="2024 - Present"
           title="Web Developer"
           subTitle="Arena GST, SIES GST"
           des="Developed and maintained web applications, managed projects in a competitive programming environment, and contributed to creating a seamless user experience."

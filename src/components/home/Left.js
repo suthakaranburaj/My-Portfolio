@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Suthakar_anburaj_resume.pdf";
+import CV from "../../assets/Suthakar_Anburaj_Resume_.pdf";
 import { bannerImg } from "../../assets/index";
 import { Link } from "react-router-dom";
 import { SiLeetcode } from "react-icons/si";
