@@ -13,7 +13,11 @@ const Education = () => {
           badge="2024 - Present"
           title="Junior Software Programmer"
           subTitle="Enpointe IO, Andheri West"
-          des="As a Full Stack Developer on the CORSYMO project, I focus on building scalable solutions, integrating APIs, and optimizing backend logic for seamless data flow. I developed advanced search filters with debounce functionality and resolved critical bugs to enhance performance. Additionally, I built dynamic forms, like bank details forms, while gaining expertise in backend architecture."
+          des="Managing the complete backend of a high-traffic platform using Express.js, Node.js, and SQL Prisma, ensuring robust, scalable, and efficient solutions.
+Designed and implemented APIs for exporting data to Excel and CSV formats, facilitating seamless data integration and usability.
+Resolved complex bugs and system errors, significantly improving application stability and performance.
+Created comprehensive API documentation to streamline the development process and enhance team collaboration.
+ Vuejs, MySQL, Prisma, ExpressJs, NodeJs"
         />
         <ResumeCard
           badge="2024 - Present"
@@ -40,7 +44,6 @@ const Education = () => {
           des="Pursuing a bachelor's degree with a focus on web development, software engineering, and competitive programming."
         />
       </div>
-
     </div>
   );
 };
